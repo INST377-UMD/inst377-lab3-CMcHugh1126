@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rock Paper Scissors Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="lab3.css?v=3">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="https://www.bing.com" target="_blank">Bing</a></li>
+      <li><a href="https://www.google.com" target="_blank">Google</a></li>
+      <li><a href="https://duckduckgo.com" target="_blank">DuckDuckGo</a></li>
+    </ul>
+  </nav>
+  <div class="header-footer">
+    <h1>Welcome to Rock-Paper-Scissors. Click Play!</h1>
+  </div>
+  <div class="content">
+    <div class="main">
+  <h2>Play the Game</h2>
+  <p>Please enter your name and make a selection</p>
+  
+
+  <form>
+    <label for="name">Enter your name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="choice">Make your selection:</label><br>
+    <select id="choice" name="choice">
+      <option value="rock">Rock</option>
+      <option value="paper">Paper</option>
+      <option value="scissors">Scissors</option>
+    </select><br><br>
+
+    <input type="submit" value="Play!">
+  </form>
+</div>
+
+<div class="sidebar">
+  <h2>What Beats What?</h2>
+  <ul>
+    <li><strong>Rock</strong> beats Scissors</li>
+    <li><strong>Scissors</strong> beats Paper</li>
+    <li><strong>Paper</strong> beats Rock</li>
+  </ul>
+</div>
+    <div class="sidebar">
+      <h2>How to Play</h2>
+      <ul>
+
+        <li>Rock beats Scissors</li>
+        <li>Scissors beats Paper</li>
+        <li>Paper beats Rock</li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="header-footer">
+    <p>Good Luck!!</p>
+  </div>
+</body>
+</html>
